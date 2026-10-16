@@ -16,13 +16,37 @@
       "review_enabled": false
     },
     {
+      "id": "engineer-java-first",
+      "title": "자바의 값과 연산 규칙",
+      "repository": "jhs512/mq3-lesson-engineer-java-first",
+      "revision": "v1.0.0",
+      "sha256": "855c8320eec3c8bec01ecdf669afa1764e5da3671c20f2ffd4432745eb209e0c",
+      "prerequisites": [
+        "engineer-program-first"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-control-first",
+      "title": "조건·반복·함수의 공통 원리",
+      "repository": "jhs512/mq3-lesson-engineer-control-first",
+      "revision": "v1.0.0",
+      "sha256": "80cfa612b9736d01b29cc1ac53303da9270ce6f49674c3a9b589c0f7432f4c3f",
+      "prerequisites": [
+        "engineer-java-first"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
       "id": "engineer-java-state",
       "title": "자바 실행 원리를 작은 변화로 확인해요",
       "repository": "jhs512/mq3-lesson-engineer-java-state",
       "revision": "v1.0.0",
       "sha256": "e60aebf380783dddc70fbba7eeb0a884deb30674a76580d6230a5dca71550c75",
       "prerequisites": [
-        "engineer-program-first"
+        "engineer-control-first"
       ],
       "required": true,
       "review_enabled": false
