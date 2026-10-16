@@ -40,13 +40,25 @@
       "review_enabled": false
     },
     {
+      "id": "engineer-java-objects",
+      "title": "자바의 객체·상속·호출",
+      "repository": "jhs512/mq3-lesson-engineer-java-objects",
+      "revision": "v1.0.0",
+      "sha256": "455eb96bd10749a638b0a145b4ed062965b9abda13ad5cfb28783ce6de25cef5",
+      "prerequisites": [
+        "engineer-control-first"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
       "id": "engineer-java-state",
       "title": "자바 실행 원리를 작은 변화로 확인해요",
       "repository": "jhs512/mq3-lesson-engineer-java-state",
       "revision": "v1.0.0",
       "sha256": "e60aebf380783dddc70fbba7eeb0a884deb30674a76580d6230a5dca71550c75",
       "prerequisites": [
-        "engineer-control-first"
+        "engineer-java-objects"
       ],
       "required": true,
       "review_enabled": false
