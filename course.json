@@ -1,17 +1,29 @@
 {
   "schema_version": 1,
   "id": "engineer-practical",
-  "title": "정보처리기사 실기 · 원리부터 풀기",
-  "description": "자바 코드 이해부터 시작하는 자체 제작 첫 수업이에요. 전체 출제 범위는 이어서 보강해요.",
+  "title": "정보처리기사 실기 · 기초부터 시험까지",
+  "description": "전체 학습 순서를 먼저 잡았어요. 완성된 기초 수업부터 차례로 제공해요.",
   "repository": "jhs512/mq3-course-engineer-practical",
   "lessons": [
+    {
+      "id": "engineer-program-first",
+      "title": "출력·변수·대입을 처음 읽어요",
+      "repository": "jhs512/mq3-lesson-engineer-program-first",
+      "revision": "v1.0.0",
+      "sha256": "db5d6380603b6a1bb6eae1466439213183cfc7481e9837593fc25a2fe5ad5041",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
     {
       "id": "engineer-java-state",
       "title": "자바 실행 원리를 작은 변화로 확인해요",
       "repository": "jhs512/mq3-lesson-engineer-java-state",
       "revision": "v1.0.0",
       "sha256": "e60aebf380783dddc70fbba7eeb0a884deb30674a76580d6230a5dca71550c75",
-      "prerequisites": [],
+      "prerequisites": [
+        "engineer-program-first"
+      ],
       "required": true,
       "review_enabled": false
     }
