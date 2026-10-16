@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "engineer-practical",
+  "title": "정보처리기사 실기 · 원리부터 풀기",
+  "description": "자바 코드 이해부터 시작하는 자체 제작 첫 수업이에요. 전체 출제 범위는 이어서 보강해요.",
+  "repository": "jhs512/mq3-course-engineer-practical",
+  "lessons": [
+    {
+      "id": "engineer-java-state",
+      "title": "자바 실행 원리를 작은 변화로 확인해요",
+      "repository": "jhs512/mq3-lesson-engineer-java-state",
+      "revision": "v1.0.0",
+      "sha256": "e60aebf380783dddc70fbba7eeb0a884deb30674a76580d6230a5dca71550c75",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    }
+  ]
+}
