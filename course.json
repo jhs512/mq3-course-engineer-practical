@@ -62,6 +62,306 @@
       ],
       "required": true,
       "review_enabled": false
+    },
+    {
+      "id": "engineer-c-first",
+      "title": "C의 값·배열·문자열",
+      "repository": "jhs512/mq3-lesson-engineer-c-first",
+      "revision": "v1.0.0",
+      "sha256": "40136399f397ee223efbab9ca33fe1f53856bbce15cb16ba7c76253fed147122",
+      "prerequisites": [
+        "engineer-java-state"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-c-memory",
+      "title": "C의 주소·포인터·구조체",
+      "repository": "jhs512/mq3-lesson-engineer-c-memory",
+      "revision": "v1.0.0",
+      "sha256": "87b6b490b0c8e49634bd1d6e2c5604c26f4149263e93bf66e2088cb43af40c51",
+      "prerequisites": [
+        "engineer-c-first"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-c-calls",
+      "title": "C의 함수 포인터·재귀",
+      "repository": "jhs512/mq3-lesson-engineer-c-calls",
+      "revision": "v1.0.0",
+      "sha256": "01336d8306291e4da37cbf47830f6b69476b220a38dfe7eef0b0e2f8aeceb5d6",
+      "prerequisites": [
+        "engineer-c-memory"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-python-collections",
+      "title": "파이썬의 목록·복사·반복",
+      "repository": "jhs512/mq3-lesson-engineer-python-collections",
+      "revision": "v1.0.0",
+      "sha256": "53a6f882e26ae2ffc81c98eca8789bfcd4aabc2275320cc00af7658264917b8c",
+      "prerequisites": [
+        "engineer-c-calls"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-language-written",
+      "title": "세 언어의 출력 예측과 빈칸",
+      "repository": "jhs512/mq3-lesson-engineer-language-written",
+      "revision": "v1.0.0",
+      "sha256": "8f4a5e688ea3fb0fd117afc357d54b29b1d6f1c58c141758d01082e69f7d661e",
+      "prerequisites": [
+        "engineer-python-collections"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-db-model",
+      "title": "관계 모델·키·정규화",
+      "repository": "jhs512/mq3-lesson-engineer-db-model",
+      "revision": "v1.0.0",
+      "sha256": "6cd6724d310256f49629e82ed3686824f8c6960c81177e314952febb10914d6e",
+      "prerequisites": [
+        "engineer-language-written"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-sql-first",
+      "title": "SQL 조회·조건·정렬의 첫 실험",
+      "repository": "jhs512/mq3-lesson-engineer-sql-first",
+      "revision": "v1.0.0",
+      "sha256": "8604da68d0054fe33abd942410d8dc8f05aa39e676800ca194c04b34473ef9e3",
+      "prerequisites": [
+        "engineer-db-model"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-sql-join",
+      "title": "조인·집계·서브쿼리",
+      "repository": "jhs512/mq3-lesson-engineer-sql-join",
+      "revision": "v1.0.0",
+      "sha256": "c2d3f55a21f8047ad964e2190722ddccf6b5995f5812a9f1223f636d70afe560",
+      "prerequisites": [
+        "engineer-sql-first"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-db-storage",
+      "title": "제약조건·뷰·인덱스와 물리 설계",
+      "repository": "jhs512/mq3-lesson-engineer-db-storage",
+      "revision": "v1.0.0",
+      "sha256": "e75827e08e9f4de0ae56dfd5c2803884ab891e920f1a07039633a75369f10fda",
+      "prerequisites": [
+        "engineer-sql-join"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-sql-procedural",
+      "title": "DDL·DML·DCL·절차형 SQL",
+      "repository": "jhs512/mq3-lesson-engineer-sql-procedural",
+      "revision": "v1.0.0",
+      "sha256": "1bd5d270987c991f9eaa593ee2c3ca326d4a307052c3e1973da34cef1f54500e",
+      "prerequisites": [
+        "engineer-db-storage"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-requirements",
+      "title": "현행 시스템과 요구사항",
+      "repository": "jhs512/mq3-lesson-engineer-requirements",
+      "revision": "v1.0.0",
+      "sha256": "5edfe0f5858cedf3f789a468741b67583d84513d2fdb32f50a5f000a3ce7251c",
+      "prerequisites": [
+        "engineer-sql-procedural"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-design",
+      "title": "모듈 설계와 디자인 패턴",
+      "repository": "jhs512/mq3-lesson-engineer-design",
+      "revision": "v1.0.0",
+      "sha256": "64c278f3c2bf2eeb1d582b395a2ea54001898c8dc706576905e9d642b963268a",
+      "prerequisites": [
+        "engineer-requirements"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-server-batch",
+      "title": "개발 환경·서버·배치 구현",
+      "repository": "jhs512/mq3-lesson-engineer-server-batch",
+      "revision": "v1.0.0",
+      "sha256": "077477358331f8329c388ab6b69a39742f1ed58e339b09e43ad11948c3c95957",
+      "prerequisites": [
+        "engineer-design"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-integration",
+      "title": "연계 데이터와 송수신",
+      "repository": "jhs512/mq3-lesson-engineer-integration",
+      "revision": "v1.0.0",
+      "sha256": "042caa9684d7d9946ecc6daceb6b1622e7e4a13529a1a7781513a41b7b06e780",
+      "prerequisites": [
+        "engineer-server-batch"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-interface",
+      "title": "인터페이스 명세·구현·검증",
+      "repository": "jhs512/mq3-lesson-engineer-interface",
+      "revision": "v1.0.0",
+      "sha256": "698a44fc5cf8b807cb837f54790262c166901d58f39d44372871dddc6cff56b4",
+      "prerequisites": [
+        "engineer-integration"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-ui",
+      "title": "화면 요구와 흐름 설계",
+      "repository": "jhs512/mq3-lesson-engineer-ui",
+      "revision": "v1.0.0",
+      "sha256": "21771860c94c7120bb061ff5a654fda5b1df00ee48bfab7de74e150178ab78c6",
+      "prerequisites": [
+        "engineer-interface"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-testing",
+      "title": "테스트 설계·통합·품질",
+      "repository": "jhs512/mq3-lesson-engineer-testing",
+      "revision": "v1.0.0",
+      "sha256": "bfa920d53b940fb140487e945e5c4161ba3f201ff6d4c51bcce12488a9e92711",
+      "prerequisites": [
+        "engineer-ui"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-security",
+      "title": "보안 설계와 안전한 구현",
+      "repository": "jhs512/mq3-lesson-engineer-security",
+      "revision": "v1.0.0",
+      "sha256": "f6b47d6e4ef2dcfadb4d52406df8fea649daf9dd0639583287142746ce907e0a",
+      "prerequisites": [
+        "engineer-testing"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-os",
+      "title": "운영체제·프로세스·메모리",
+      "repository": "jhs512/mq3-lesson-engineer-os",
+      "revision": "v1.0.0",
+      "sha256": "3ba6897d0b1d09da38cd9f9455764b20270bd23c14188d421701a313c87138d6",
+      "prerequisites": [
+        "engineer-security"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-network",
+      "title": "네트워크·주소·프로토콜",
+      "repository": "jhs512/mq3-lesson-engineer-network",
+      "revision": "v1.0.0",
+      "sha256": "f9d65011ce981c215468acef18ed9294b65ce9edf9af1f311d4e6c09cfb7e6a2",
+      "prerequisites": [
+        "engineer-os"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-packaging",
+      "title": "패키징·배포·매뉴얼·버전",
+      "repository": "jhs512/mq3-lesson-engineer-packaging",
+      "revision": "v1.0.0",
+      "sha256": "d8aee7b1e371818758a1151acc489bb44c7ec8f9d129fa8dd8823085a2f19b5e",
+      "prerequisites": [
+        "engineer-network"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-written-mix",
+      "title": "전 영역 혼합 필답과 약점 진단",
+      "repository": "jhs512/mq3-lesson-engineer-written-mix",
+      "revision": "v1.0.0",
+      "sha256": "380f4bd1276d6252c3b1627b41f67ff1938ed4d24f344a416eb2cda4ec19503d",
+      "prerequisites": [
+        "engineer-packaging"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-mock-a",
+      "title": "자체 실전 모의 A",
+      "repository": "jhs512/mq3-lesson-engineer-mock-a",
+      "revision": "v1.0.0",
+      "sha256": "a73047c5fc098c1b4ca747c7ba64ff684851ae9e37236468f50a03cdc5f3bed7",
+      "prerequisites": [
+        "engineer-written-mix"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-mock-b",
+      "title": "자체 실전 모의 B",
+      "repository": "jhs512/mq3-lesson-engineer-mock-b",
+      "revision": "v1.0.0",
+      "sha256": "fbd1caf469642013240ac409cb8eba7b2552b927d4840c48d07e7ac08055289d",
+      "prerequisites": [
+        "engineer-mock-a"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "engineer-mock-c",
+      "title": "자체 실전 모의 C·취약 영역 재검사",
+      "repository": "jhs512/mq3-lesson-engineer-mock-c",
+      "revision": "v1.0.0",
+      "sha256": "d82cb26cefc929d9acaff1d5ee7b762034cb4bf3bb6d3b5e1b4cb1ed993c3a7e",
+      "prerequisites": [
+        "engineer-mock-b"
+      ],
+      "required": true,
+      "review_enabled": false
     }
   ]
 }
